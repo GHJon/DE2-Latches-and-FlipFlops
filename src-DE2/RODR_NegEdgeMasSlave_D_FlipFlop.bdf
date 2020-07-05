@@ -1,0 +1,228 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -16 264 152 280)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "RODR_D" (rect 5 0 52 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -16 280 152 296)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "RODR_C" (rect 5 0 52 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 1000 264 1176 280)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "RODR_Q" (rect 90 0 137 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 992 280 1168 296)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "RODR_QPrime" (rect 90 0 165 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 664 240 880 320)
+	(text "RODR_DLatch" (rect 5 0 79 12)(font "Arial" ))
+	(text "inst" (rect 8 64 25 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RODR_D" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_D" (rect 21 27 68 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RODR_C" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_C" (rect 21 43 68 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "RODR_Q" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_Q" (rect 156 27 203 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32))
+	)
+	(port
+		(pt 216 48)
+		(output)
+		(text "RODR_QPrime" (rect 0 0 75 12)(font "Arial" ))
+		(text "RODR_QPrime" (rect 132 43 207 55)(font "Arial" ))
+		(line (pt 216 48)(pt 200 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 200 64))
+	)
+)
+(symbol
+	(rect 312 240 528 320)
+	(text "RODR_DLatch" (rect 5 0 79 12)(font "Arial" ))
+	(text "inst5" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RODR_D" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_D" (rect 21 27 68 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RODR_C" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_C" (rect 21 43 68 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 216 32)
+		(output)
+		(text "RODR_Q" (rect 0 0 47 12)(font "Arial" ))
+		(text "RODR_Q" (rect 156 27 203 39)(font "Arial" ))
+		(line (pt 216 32)(pt 200 32))
+	)
+	(port
+		(pt 216 48)
+		(output)
+		(text "RODR_QPrime" (rect 0 0 75 12)(font "Arial" ))
+		(text "RODR_QPrime" (rect 132 43 207 55)(font "Arial" ))
+		(line (pt 216 48)(pt 200 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 200 64))
+	)
+)
+(symbol
+	(rect 232 328 280 360)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
+(connector
+	(pt 880 272)
+	(pt 1000 272)
+)
+(connector
+	(pt 880 288)
+	(pt 992 288)
+)
+(connector
+	(pt 152 272)
+	(pt 312 272)
+)
+(connector
+	(pt 168 288)
+	(pt 168 344)
+)
+(connector
+	(pt 168 344)
+	(pt 232 344)
+)
+(connector
+	(pt 280 344)
+	(pt 664 344)
+)
+(connector
+	(pt 664 344)
+	(pt 664 288)
+)
+(connector
+	(pt 152 288)
+	(pt 168 288)
+)
+(connector
+	(pt 168 288)
+	(pt 312 288)
+)
+(connector
+	(pt 520 272)
+	(pt 528 272)
+)
+(connector
+	(pt 528 272)
+	(pt 664 272)
+)
+(junction (pt 168 288))
+(junction (pt 528 272))
